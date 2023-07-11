@@ -11,7 +11,7 @@ le_path = Path(__file__).parents[0] / "Models/label_encoder.sav"
 le = pickle.load(open(le_path,"rb"))
 
 # random forest model pre-trained
-forest_path = Path(__file__).parents[0] / "Models/model.sav"
+forest_path = Path(__file__).parents[0] / "Models/forest_model.sav"
 forest_model = pickle.load(open(forest_path,"rb"))
 
 # our functions
