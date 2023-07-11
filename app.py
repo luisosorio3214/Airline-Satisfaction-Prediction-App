@@ -7,11 +7,11 @@ from pathlib import Path
 # load some of our saved models using pickle
 
 # label-encoder model pre-trained with feature names
-le_path = Path(__file__) / "Models/label_encoder.sav"
+le_path = Path(__file__).parents[0] / "Models/label_encoder.sav"
 le = pickle.load(open(le_path,"rb"))
 
 # random forest model pre-trained
-forest_path = Path(__file__) / "Models/model.sav"
+forest_path = Path(__file__).parents[0] / "Models/model.sav"
 forest_model = pickle.load(open(forest_path,"rb"))
 
 # our functions
