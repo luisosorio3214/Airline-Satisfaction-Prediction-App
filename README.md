@@ -145,8 +145,8 @@
         <ul>
           <li>Final Model used: Random Forest Classifier</li>
           <li>Why choose Random Forest Classifier compared to the other models: The reason why Random Forest Classifier was the chosen model was that it provided better metrics not only in terms of accuracy but also in other metrics such as sensitivity, specificity, and precision. The precision score gave about 97.47% and overall is a better metric when it comes down to classifying a target with imbalance classes. OUr target variable, satisfaction level, had more unsatisfactory/neutral compared to satisfactory passengers based on our surveys. Also Random Forest is able to provide feature importance based on the splitting of various trees by determining which split/node provides the overall greatest decrease in gini index. This what provides further insights on our passengers view and what impacts satisfaction level the most. However, using Logistic Regression or Boosting would have been sufficient for analysis since there was not a huge difference in our metric scores.</li>
-          <li>Metric used: Specificity/li>
-          <li>Why choose Specificity as a metric: Our response variable in what we are trying to predict satisfaction level had imbalance classes. This creates a problem for our machine learning algorithm since they cannot learn each class at the same level. Therefore, our machine learning model might learn unsatisfactory/neutral passengers better since we were given more observations on them. Since we want to determine passenger with satisfactory level accurately this is only given when our specificity score is the greatest. If you look at the confusion matrix above we can see 1: represent satisfactory and 0: represents unsatisfactory/neutral passengers. Therefore, we want to increase our true positive, the lower right corner of the confusion matrix, which is our specificity score referred to as our recall score.<li>
+          <li>Metric used: Specificity</li>
+          <li>Why choose Specificity as a metric: Our response variable in what we are trying to predict satisfaction level had imbalance classes. This creates a problem for our machine learning algorithm since they cannot learn each class at the same level. Therefore, our machine learning model might learn unsatisfactory/neutral passengers better since we were given more observations on them. Since we want to determine passenger with satisfactory level accurately this is only given when our specificity score is the greatest. If you look at the confusion matrix above we can see 1: represent satisfactory and 0: represents unsatisfactory/neutral passengers. Therefore, we want to increase our true positive, the lower right corner of the confusion matrix, which is our specificity score referred to as our recall score.</li>
         </ul>
       </p>
     </p>
@@ -203,18 +203,18 @@
       <h4>Create a virtual environment using venv</h4>
         <pre>
           <code style="height: 50%;">
-          python -m venv <env_name>
+          python -m venv "env_name"
           </code>
         </pre>   
       <h4>Activate virtual environment</h4>
         <pre>
           For Window Users
           <code style="height: 50%;">
-          <env_name>\Scripts\activate
+            env_name\Scripts\activate
           </code>
           For Mac Users
           <code style="height: 50%;">
-          source <env_name>/bin/activate
+            source env_name/bin/activate
           </code>
         </pre>
       <h4>Install required dependencies from requirements.txt file</h4>
@@ -249,10 +249,10 @@
   <h2>Report and Presentation</h2>
   <p>The Report and Presentation was done collaboratively with other students at Long Beach State University. I express my gratitude and say thank you for the work they provided.</p>
   <p>
-    To See Full Report of analysis click <a href="https://github.com/luisosorio3214/Machine-Learning-Project-R/blob/main/Airline%20Statisfaction%20Analysis/Report%20%26%20PowerPoint%2C%20rmd%20file/Airline_Satisfaction_Report.pdf">here</a>.
+    To See Full <ul>Report</ul> of Analysis click <a href="https://github.com/luisosorio3214/Machine-Learning-Project-R/blob/main/Airline%20Statisfaction%20Analysis/Report%20%26%20PowerPoint%2C%20rmd%20file/Airline_Satisfaction_Report.pdf">here</a>.
   </p>
   <p>
-    To see the Presentation given click <a href="https://docs.google.com/presentation/d/1xNGO3d_qEDKc9R28YX31pVfr07BD6VNu/edit?usp=sharing&ouid=100743082681367568996&rtpof=true&sd=true"> here</a>.
+    To see the Full <ul>Presentation</ul> given click <a href="https://docs.google.com/presentation/d/1xNGO3d_qEDKc9R28YX31pVfr07BD6VNu/edit?usp=sharing&ouid=100743082681367568996&rtpof=true&sd=true"> here</a>.
   </p>
   </section>
 </p>
