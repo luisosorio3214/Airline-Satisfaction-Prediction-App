@@ -86,6 +86,7 @@
     <ul>
       <li>R (Data Cleansing and Exploratory Analysis)
       <li>Python (Machine Learning MOdeling and App preparation)</li>
+      <li>GitHub Pages (R Markdown Deployment onto Web)</li>
       <li>Microsoft Office (Reporting & Presentation)</li>
       <li>Streamlit (Interface for model)</li>
     </ul>
