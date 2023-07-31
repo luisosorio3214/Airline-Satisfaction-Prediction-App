@@ -1,4 +1,4 @@
-<h1 align="center">Airline Satisfaction Prediction APP</h1>
+<h1 align="center">Airline Satisfaction Prediction App</h1>
 <p align="center">
   <img src="Static/airline_image.jpg" width="800" height="250" allow="autoplay">
 </p>
