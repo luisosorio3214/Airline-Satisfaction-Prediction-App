@@ -251,10 +251,10 @@
   <h2>Report and Presentation</h2>
   <p>The Report and Presentation was done collaboratively with other students at Long Beach State University. I express my gratitude and say thank you for the work they provided.</p>
   <p>
-    To See Full <ul>Report</ul> of Analysis click <a href="https://github.com/luisosorio3214/Machine-Learning-Project-R/blob/main/Airline%20Statisfaction%20Analysis/Report%20%26%20PowerPoint%2C%20rmd%20file/Airline_Satisfaction_Report.pdf">here</a>.
+    To read the Full <u>Report</u> of the Analysis click <a href="https://github.com/luisosorio3214/Machine-Learning-Project-R/blob/main/Airline%20Statisfaction%20Analysis/Report%20%26%20PowerPoint%2C%20rmd%20file/Airline_Satisfaction_Report.pdf">here</a>.
   </p>
   <p>
-    To see the Full <ul>Presentation</ul> given click <a href="https://docs.google.com/presentation/d/1xNGO3d_qEDKc9R28YX31pVfr07BD6VNu/edit?usp=sharing&ouid=100743082681367568996&rtpof=true&sd=true"> here</a>.
+    To see the Full <u>Presentation</u> given click <a href="https://docs.google.com/presentation/d/1xNGO3d_qEDKc9R28YX31pVfr07BD6VNu/edit?usp=sharing&ouid=100743082681367568996&rtpof=true&sd=true"> here</a>.
   </p>
   </section>
 </p>
