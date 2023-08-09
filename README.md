@@ -99,7 +99,7 @@
     <p>
       Correlation Matrix between numeric features.
       <p>
-        <img src="Static\corr_matrix.tiff">
+        <img src="Static\corr_matrix.png">
       </p>
     </p>  
     <p>
