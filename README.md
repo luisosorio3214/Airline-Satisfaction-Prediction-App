@@ -120,8 +120,8 @@
         <tr>
           <th>Model</th>
           <th>Accuracy</th>
-          <th>Sensitivity</th>
-          <th>Specificity (Recall)</th>
+          <th>Sensitivity (Recall)</th>
+          <th>Specificity</th>
         </tr>
         <tr>
           <td>Logistic Regression</td>
